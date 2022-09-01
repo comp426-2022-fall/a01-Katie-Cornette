@@ -28,9 +28,9 @@
 // 2. set a header with content type `text/html`, and 
 // 3. end with the data that you are reading in from ./public/index.html.
 	const server = http.createServer((req, res) =>{
-	    res.statusCode = 200
-	    res.setHeader('Content-Type', 'text/html')
-	    res.end(data)
+	    res.statusCode = 200;
+	    res.setHeader('Content-Type', 'text/html');
+	    res.end(data);
 	});
 // Start the `server` const listening on the port defined by argument in your `port` const. 
 // Put the exact message `Server listening on port ${port}` on the console log.
