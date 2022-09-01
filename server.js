@@ -21,8 +21,8 @@
              console.error(err);
 	     return;
 	 }
-	console.log(data);
-	}); 
+	
+	}; 
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
 // The function should have three responses: 
